@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kating</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- link font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- bagian awal header  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><img src="images/logo.png" width="200px"></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#bimbel">bimbel</a>
+        <a href="#gallery">gallery</a>
+        <a href="#mentor">tutor</a>
+        <a href="#contact">kontak</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- bagian akhir header -->
+
+<!-- form masuk  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>masuk</h3>
+        <input type="email" class="box" placeholder="ketikkan email anda">
+        <input type="password" class="box" placeholder="ketikkan sandi anda">
+        <input type="submit" value="masuk sekarang" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">ingatkan saya</label>
+        <p>lupa sandi? <a href="#">klik disini</a></p>
+        <p>tidak punya akun? <a href="#">daftar sekarang</a></p>
+    </form>
+
+</div>
+
+<!-- bagian awal home  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>bimbel kating</h3>
+        <p>Belajar Mudah, Murah, Lengkap & Praktis</p>
+        <a href="#" class="btn">temukan lebih banyak</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/s1.mp4"></span>
+        <span class="vid-btn" data-src="images/s2.mp4"></span>
+        <span class="vid-btn" data-src="images/s3.mp4"></span>
+        <span class="vid-btn" data-src="images/s4.mp4"></span>
+        <span class="vid-btn" data-src="images/s5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/s1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- bagian akhir home -->
+
+<!-- bagian awal bimbel  -->
+
+<section class="book" id="bimbel">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>i</span>
+        <span>m</span>
+        <span>b</span>
+        <span>e</span>
+        <span>l</span>
+        <span class="space"></span>
+        <span>s</span>
+        <span>e</span>
+        <span>k</span>
+        <span>a</span>
+        <span>r</span>
+        <span>a</span>
+        <span>n</span>
+        <span>g</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/bimbel.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <label for="name">nama lengkap</label>
+                <input id="name" type="text" placeholder="ketikkan nama lengkap..">
+            </div>
+            <div class="inputBox">
+                <label for="nim">NIM</label>
+                <input id="nim" type="text" placeholder="ketikkan NIM..">
+            </div>
+            <div class="inputBox">
+                <label for="lift">angkatan</label>
+                <input id="lift" type="text" placeholder="ketikkan Angkatan..">
+            </div>
+            <div class="inputBox">
+                <label for="paket">Pilih Paket</label>
+                <select id="paket">
+                    <option selected>Pilih Paket</option>
+                    <option value="1">Reguler Semester 1</option>
+                    <option value="2">Reguler Semester 2</option>
+                    <option value="3">Reguler Semester 3</option>
+                    <option value="4">Reguler Semester 4</option>
+                    <option value="5">Reguler Semester 5</option>
+                    <option value="6">Reguler Semester 6</option>
+                  </select>
+            </div>
+            <input type="submit" class="btn" value="daftar">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- bagian akhir bimbel -->
+</section>
+
+<!-- bagian awal gallery  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g1.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g2.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g3.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g4.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g5.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g6.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g7.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/g8.png" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- bagian akhir gallery -->
+
+<!-- bagian awal mentor  -->
+
+<section class="review" id="mentor">
+
+    <h1 class="heading">
+        <span>t</span>
+        <span>u</span>
+        <span>t</span>
+        <span>o</span>
+        <span>r</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p1.png" alt="">
+                    <h3>Kak Indra</h3>
+                    <p>"Belajarlah dengan hati gembira karena hati yang gembira adalah obat dari semua masalah."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p3.png" alt="">
+                    <h3>Kak Amel</h3>
+                    <p>"Waktu aku sekolah,seneng banget kalau dapat guru yang pembawaannya seru. sekarang jadi master teacher, aku pengen muridku happy dan semanngat belajar setelah nonton video belajar."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p2.png" alt="">
+                    <h3>Kak Aswar</h3>
+                    <p>"Belajar itu seperti lari maraton. pelajar yang mulai duluan dan konsisten setiap hari lah yang akan mencapai mimpinya pertama."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p4.png" alt="">
+                    <h3>Kak Azis</h3>
+                    <p>"kamu itu spesial dan jangan pernah merasa tidak bisa mencapai mimpi karena masih muda!."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- bagian akhir mentor -->
+
+<!-- bagian awal kontak  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>k</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>k</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/kontak.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nomor hp/wa">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="akun sosmed">
+                <input type="text" placeholder="akun sosmed">
+            </div>
+            <textarea placeholder="Note" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="kirim">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- bagian akhir kontak -->
+
+
+<!-- bagian footer  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Bimbel Kating merupakan sebuah startup bimbingan belajar kuliah daring dari kakak tingkat untuk adik tingkat</p>
+        </div>
+        <div class="box">
+            <h3>tautan</h3>
+            <a href="#home">home</a>
+            <a href="#bimbel">bimbel</a>
+            <a href="#gallery">gallery</a>
+            <a href="#mentor">mentor</a>
+            <a href="#contact">kontak</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Bimbel Kating</span> </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
